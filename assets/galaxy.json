@@ -1,0 +1,388 @@
+{
+  "galaxy": [
+    {
+      "position": "1",
+      "name": "Mercury",
+      "type": "Terrestrial",
+      "image": "http://space-facts.com/wp-content/uploads/mercury-transparent.png",
+      "velocity": "47",
+      "distance": "58",
+      "description": "Mercury is the closest planet to the Sun and due to its proximity it is not easily seen except during twilight. For every two orbits of the Sun, Mercury completes three rotations about its axis and up until 1965 it was thought that the same side of Mercury constantly faced the Sun. Thirteen times a century Mercury can be observed from the Earth passing across the face of the Sun in an event called a transit, the next will occur on the 9th May 2016.",
+      "distance_from_sun": {
+        "value": "57.9",
+        "unit": "million kilometers"
+      },
+      "diameter": {
+        "value": "4,880",
+        "unit": "kilometers"
+      },
+      "mass": {
+        "value": "3.3011e23",
+        "unit": "kilograms"
+      },
+      "gravity": {
+        "value": "3.7",
+        "unit": "m/s²"
+      },
+      "atmosphere": [],
+      "moons": []
+    },
+    {
+      "position": "2",
+      "name": "Venus",
+      "type": "Terrestrial",
+      "image": "http://space-facts.com/wp-content/uploads/venus-transparent.png",
+      "velocity": "35",
+      "distance": "108",
+      "description": "Venus is the second planet from the Sun and is the second brightest object in the night sky after the Moon. Named after the Roman goddess of love and beauty, Venus is the second largest terrestrial planet and is sometimes referred to as the Earth’s sister planet due to their similar size and mass. The surface of the planet is obscured by an opaque layer of clouds made up of sulphuric acid.",
+      "distance_from_sun": {
+        "value": "108.2",
+        "unit": "million kilometers"
+      },
+      "diameter": {
+        "value": "12,104",
+        "unit": "kilometers"
+      },
+      "mass": {
+        "value": "4.8675e24",
+        "unit": "kilograms"
+      },
+      "gravity": {
+        "value": "8.87",
+        "unit": "m/s²"
+      },
+      "atmosphere": [
+        "carbon dioxide",
+        "nitrogen"
+      ],
+      "moons": []
+    },
+    {
+      "position": "3",
+      "name": "Earth",
+      "type": "Terrestrial",
+      "image": "http://space-facts.com/wp-content/uploads/earth-transparent.png",
+      "velocity": "29",
+      "distance": "149",
+      "description": "Earth is the third planet from the Sun and is the largest of the terrestrial planets. The Earth is the only planet in our solar system not to be named after a Greek or Roman deity. The Earth was formed approximately 4.54 billion years ago and is the only known planet to support life.",
+      "distance_from_sun": {
+        "value": "149.6",
+        "unit": "million kilometers"
+      },
+      "diameter": {
+        "value": "12,742",
+        "unit": "kilometers"
+      },
+      "mass": {
+        "value": "5.972e24",
+        "unit": "kilograms"
+      },
+      "gravity": {
+        "value": "9.81",
+        "unit": "m/s²"
+      },
+      "atmosphere": [
+        "nitrogen",
+        "oxygen",
+        "argon",
+        "carbon dioxide"
+      ],
+      "moons": [
+        {
+          "name": "Luna",
+          "distance_from_planet": {
+            "value": "384,400",
+            "unit": "kilometers"
+          }
+        }
+      ]
+    },
+    {
+      "position": "4",
+      "name": "Mars",
+      "type": "Terrestrial",
+      "image": "http://space-facts.com/wp-content/uploads/mars-transparent.png",
+      "velocity": "24",
+      "distance": "227",
+      "description": "Mars is the fourth planet from the Sun and is the second smallest planet in the solar system. Named after the Roman god of war, Mars is also often described as the “Red Planet” due to its reddish appearance. Mars is a terrestrial planet with a thin atmosphere composed primarily of carbon dioxide.",
+      "distance_from_sun": {
+        "value": "227.9",
+        "unit": "million kilometers"
+      },
+      "diameter": {
+        "value": "6,779",
+        "unit": "kilometers"
+      },
+      "mass": {
+        "value": "6.4171e23",
+        "unit": "kilograms"
+      },
+      "gravity": {
+        "value": "3.72",
+        "unit": "m/s²"
+      },
+      "atmosphere": [
+        "carbon dioxide",
+        "argon"
+      ],
+      "moons": [
+        {
+          "name": "Phobos",
+          "distance_from_planet": {
+            "value": "9,378",
+            "unit": "kilometers"
+          }
+        },
+        {
+          "name": "Deimos",
+          "distance_from_planet": {
+            "value": "23,460",
+            "unit": "kilometers"
+          }
+        }
+      ]
+    },
+    {
+      "position": "5",
+      "name": "Jupiter",
+      "type": "Gas Giant",
+      "image": "http://space-facts.com/wp-content/uploads/jupiter-transparent.png",
+      "velocity": "13",
+      "distance": "778",
+      "description": "The planet Jupiter is the fifth planet out from the Sun, and is two and a half times more massive than all the other planets in the solar system combined. It is made primarily of gases and is therefore known as a “gas giant”.",
+      "distance_from_sun": {
+        "value": "778.3",
+        "unit": "million kilometers"
+      },
+      "diameter": {
+        "value": "139,822",
+        "unit": "kilometers"
+      },
+      "mass": {
+        "value": "1.8982e27",
+        "unit": "kilograms"
+      },
+      "gravity": {
+        "value": "24.79",
+        "unit": "m/s²"
+      },
+      "atmosphere": [
+        "hydrogen",
+        "helium"
+      ],
+      "moons": [
+        {
+          "name": "Io",
+          "distance_from_planet": {
+            "value": "421,700",
+            "unit": "kilometers"
+          }
+        },
+        {
+          "name": "Europa",
+          "distance_from_planet": {
+            "value": "671,034",
+            "unit": "kilometers"
+          }
+        },
+        {
+          "name": "Ganymede",
+          "distance_from_planet": {
+            "value": "1,070,400",
+            "unit": "kilometers"
+          }
+        },
+        {
+          "name": "Callisto",
+          "distance_from_planet": {
+            "value": "1,882,709",
+            "unit": "kilometers"
+          }
+        }
+      ]
+    },
+    {
+      "position": "6",
+      "name": "Saturn",
+      "type": "Gas Giant",
+      "image": "http://space-facts.com/wp-content/uploads/saturn-transparent.png",
+      "velocity": "9",
+      "distance": "1426",
+      "description": "Saturn is the sixth planet from the Sun and the most distant that can be seen with the naked eye. Saturn is the second largest planet and is best known for its fabulous ring system that was first observed in 1610 by the astronomer Galileo Galilei. Like Jupiter, Saturn is a gas giant and is composed of similar gases including hydrogen, helium, and methane.",
+      "distance_from_sun": {
+        "value": "1,427",
+        "unit": "million kilometers"
+      },
+      "diameter": {
+        "value": "116,464",
+        "unit": "kilometers"
+      },
+      "mass": {
+        "value": "5.6834e26",
+        "unit": "kilograms"
+      },
+      "gravity": {
+        "value": "10.44",
+        "unit": "m/s²"
+      },
+      "atmosphere": [
+        "hydrogen",
+        "helium"
+      ],
+      "moons": [
+        {
+          "name": "Titan",
+          "distance_from_planet": {
+            "value": "1,221,870",
+            "unit": "kilometers"
+          }
+        },
+        {
+          "name": "Enceladus",
+          "distance_from_planet": {
+            "value": "237,948",
+            "unit": "kilometers"
+          }
+        }
+      ]
+    },
+    {
+      "position": "7",
+      "name": "Uranus",
+      "type": "Ice Giant",
+      "image": "http://space-facts.com/wp-content/uploads/uranus-transparent.png",
+      "velocity": "6",
+      "distance": "2870",
+      "description": "Uranus is the seventh planet from the Sun. While being visible to the naked eye, it was not recognized as a planet due to its dimness and slow orbit. Uranus became the first planet discovered with the use of a telescope. Uranus is tipped over on its side with an axial tilt of 98 degrees. It is often described as “rolling around the Sun on its side.”",
+      "distance_from_sun": {
+        "value": "2,871",
+        "unit": "million kilometers"
+      },
+      "diameter": {
+        "value": "50,724",
+        "unit": "kilometers"
+      },
+      "mass": {
+        "value": "8.6810e25",
+        "unit": "kilograms"
+      },
+      "gravity": {
+        "value": "8.69",
+        "unit": "m/s²"
+      },
+      "atmosphere": [
+        "hydrogen",
+        "helium",
+        "methane"
+      ],
+      "moons": [
+        {
+          "name": "Titania",
+          "distance_from_planet": {
+            "value": "435,840",
+            "unit": "kilometers"
+          }
+        },
+        {
+          "name": "Oberon",
+          "distance_from_planet": {
+            "value": "583,520",
+            "unit": "kilometers"
+          }
+        }
+      ]
+    },
+    {
+      "position": "8",
+      "name": "Neptune",
+      "type": "Ice Giant",
+      "image": "http://space-facts.com/wp-content/uploads/neptune-transparent.png",
+      "velocity": "5",
+      "distance": "4498",
+      "description": "Neptune is the eighth planet from the Sun making it the most distant in the solar system. This gas giant planet may have formed much closer to the Sun in early solar system history before migrating to its present position.",
+      "distance_from_sun": {
+        "value": "4,498",
+        "unit": "million kilometers"
+      },
+      "diameter": {
+        "value": "49,244",
+        "unit": "kilometers"
+      },
+      "mass": {
+        "value": "1.02413e26",
+        "unit": "kilograms"
+      },
+      "gravity": {
+        "value": "11.15",
+        "unit": "m/s²"
+      },
+      "atmosphere": [
+        "hydrogen",
+        "helium",
+        "methane"
+      ],
+      "moons": [
+        {
+          "name": "Triton",
+          "distance_from_planet": {
+            "value": "354,800",
+            "unit": "kilometers"
+          }
+        },
+        {
+          "name": "Proteus",
+          "distance_from_planet": {
+            "value": "117,647",
+            "unit": "kilometers"
+          }
+        }
+      ]
+    },
+    {
+      "position": "9",
+      "name": "Sun",
+      "type": "Star",
+      "image": "http://pngimg.com/uploads/sun/sun_PNG13424.png",
+      "velocity": "220",
+      "distance": "0",
+      "description": "The Sun (or Sol), is the star at the center of our solar system and is responsible for the Earth’s climate and weather. The Sun is an almost perfect sphere with a difference of just 10km in diameter between the poles and the equator. The average radius of the Sun is 695,508 km (109.2 times that of the Earth) of which 20–25% is the core.",
+      "distance_from_sun": {
+        "value": "4,498",
+        "unit": "million kilometers"
+      },
+      "diameter": {
+        "value": "49,244",
+        "unit": "kilometers"
+      },
+      "mass": {
+        "value": "1.02413e26",
+        "unit": "kilograms"
+      },
+      "gravity": {
+        "value": "11.15",
+        "unit": "m/s²"
+      },
+      "atmosphere": [
+        "hydrogen",
+        "helium",
+        "methane"
+      ],
+      "moons": [
+        {
+          "name": "Triton",
+          "distance_from_planet": {
+            "value": "354,800",
+            "unit": "kilometers"
+          }
+        },
+        {
+          "name": "Proteus",
+          "distance_from_planet": {
+            "value": "117,647",
+            "unit": "kilometers"
+          }
+        }
+      ]
+    }
+  ]
+}
