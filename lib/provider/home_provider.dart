@@ -6,11 +6,19 @@ class Item {
   final String image;
   final String name;
   final String type;
+  final String description;
+  final Map<String, dynamic> gravity;
+  final Map<String, dynamic> diameter;
+  final Map<String, dynamic> mass;
 
   Item({
     required this.image,
     required this.name,
     required this.type,
+    required this.description,
+    required this.gravity,
+    required this.diameter,
+    required this.mass,
   });
 }
 

@@ -41,12 +41,6 @@ class _DetailPageState extends State<DetailPage>  with SingleTickerProviderState
     ModalRoute.of(context)!.settings.arguments as Map<String, dynamic>;
     HomeProvider favoriteProvider = Provider.of<HomeProvider>(context);
 
-    String gravityValue = "${gd["gravity"]["value"]}";
-    String gravityUnit = "${gd["gravity"]["unit"]}";
-    String diameterValue = "${gd["diameter"]["value"]}";
-    String diameterUnit = "${gd["diameter"]["unit"]}";
-    String massValue = "${gd["mass"]["value"]}";
-    String massUnit = "${gd["mass"]["unit"]}";
 
     return Scaffold(
       appBar: AppBar(
@@ -67,17 +61,6 @@ class _DetailPageState extends State<DetailPage>  with SingleTickerProviderState
               color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
-        actions: [
-          Padding(
-            padding: const EdgeInsets.only(right: 10),
-            child: IconButton(
-              onPressed: () {
-                Navigator.pushNamed(context, "favorite_page");
-              },
-              icon: Icon(Icons.save_alt, color: Colors.white, size: 30),
-            ),
-          )
-        ],
         backgroundColor: Color(0xff1B1241),
       ),
       body: Stack(
@@ -130,6 +113,10 @@ class _DetailPageState extends State<DetailPage>  with SingleTickerProviderState
                                   name: "${gd["name"]}",
                                   image: "${gd["image"]}",
                                   type: "${gd["type"]}",
+                                  description: "${gd["description"]}",
+                                  gravity: {"value": gd["gravity"]["value"], "unit": gd["gravity"]["unit"]},
+                                  diameter: {"value": gd["diameter"]["value"], "unit": gd["diameter"]["unit"]},
+                                  mass: {"value": gd["mass"]["value"], "unit": gd["mass"]["unit"]},
                                 ));
                                 ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
                                   content: Text("favorite successfully!"),
@@ -189,7 +176,7 @@ class _DetailPageState extends State<DetailPage>  with SingleTickerProviderState
                                     fontWeight: FontWeight.bold, fontSize: 25),
                               ),
                               TextSpan(
-                                text: "$gravityValue ${gravityUnit}",
+                                text: "${gd["gravity"]["value"]} ${gd["gravity"]["unit"]}",
                                 style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.w500,
@@ -210,7 +197,7 @@ class _DetailPageState extends State<DetailPage>  with SingleTickerProviderState
                                     fontWeight: FontWeight.bold, fontSize: 25),
                               ),
                               TextSpan(
-                                text: "$diameterValue ${diameterUnit}",
+                                text: "${gd["diameter"]["value"]} ${gd["diameter"]["unit"]}",
                                 style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.w500,
@@ -231,7 +218,7 @@ class _DetailPageState extends State<DetailPage>  with SingleTickerProviderState
                                     fontWeight: FontWeight.bold, fontSize: 25),
                               ),
                               TextSpan(
-                                text: "$massValue ${massUnit}",
+                                text: "${gd["mass"]["value"]} ${gd["mass"]["unit"]}",
                                 style: TextStyle(
                                     fontSize: 18,
                                     fontWeight: FontWeight.w500,

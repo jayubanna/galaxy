@@ -48,6 +48,17 @@ class _HomePageState extends State<HomePage>
               color: Colors.white, fontSize: 30, fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
+        actions: [
+          Padding(
+            padding: const EdgeInsets.only(right: 10),
+            child: IconButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "favorite_page");
+              },
+              icon: Icon(Icons.save_alt, color: Colors.white, size: 30),
+            ),
+          )
+        ],
         backgroundColor: Color(0xff1B1241),
       ),
       body: Stack(
